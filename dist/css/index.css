@@ -1,5 +1,5 @@
-/* background: #cc0000;
 
-background: #7c0000;
- */
-
+ :root{
+     --main-bg-color: #cc0000;
+     --secondary-bg-color: #7c0000;
+ }
