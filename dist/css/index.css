@@ -47,3 +47,19 @@
     background: var(--light-color);
     color: var(--dark-color);
 }
+
+
+/* header div start */
+.header{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* header div end */
+/* header logo div start */
+.header .logo{
+    width: 175px;
+}
+/* header logo div end */
