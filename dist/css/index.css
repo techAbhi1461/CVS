@@ -50,6 +50,18 @@
     color: var(--dark-color);
 }
 
+/* html, body */
+html, body{
+   display: flex; 
+   flex-direction: column;
+   height: 100%;
+}
+
+/* container start */
+.container{
+    flex: 1;
+}
+/* container end */
 
 /* header div start */
 .header{
@@ -147,6 +159,7 @@ section.services-grid .service img{
 
 /* footer start */
 footer{
+    flex-shrink: 0;
     padding: 1rem;
     display: flex;
     justify-content: space-around;
