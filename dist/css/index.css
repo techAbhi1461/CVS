@@ -4,4 +4,46 @@
  :root{
      --main-bg-color: #cc0000;
      --secondary-bg-color: #7c0000;
+    --light-color: #f4f4f4;
+    --dark-color: #333;
  }
+
+ /* css reset */
+ *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-size: 16px;
+     line-height: 1.6;
+ }
+
+ /* ul, li reset */
+ ul, li{
+     list-style: none;
+ }
+
+ /* a reset */
+ a{
+     text-decoration: none;
+ }
+
+ /* img width max 100% */
+ img{
+     width: 100%;
+ }
+
+ /* Utility classes */
+.bg-primary{
+    background: var(--main-bg-color);
+    color: #fff;
+}
+
+.bg-secondary{
+    background: var(--secondary-bg-color);
+    color: #fff;
+}
+
+.bg-light{
+    background: var(--light-color);
+    color: var(--dark-color);
+}
