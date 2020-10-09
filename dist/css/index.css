@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 
  :root{
     --main-bg-color: #cc0000;
@@ -95,7 +95,7 @@ section.subheader{
 /* subheader-text div end */
 /* subheader-text p start */
 .subheader-text p{
-    font-weight: 400;
+    font-weight: 600;
     font-size: 13px;
 }
 /* subheader-text div end */
@@ -104,3 +104,14 @@ section.subheader{
     width: 40px;
 }
 /* subheader-text div end */
+
+/* section services-grid start  */
+section.services-grid{
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+/* section services-grid end */
