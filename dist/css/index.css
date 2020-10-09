@@ -115,3 +115,32 @@ section.services-grid{
     grid-gap: 20px;
 }
 /* section services-grid end */
+/* services start  */
+section.services-grid .service{
+    border: 1px solid #ccc;
+    padding: 1rem;
+    box-shadow: 1px 1px 2px #ccc;
+    display: flex;
+    flex-direction: column;
+}
+/* services end */
+/* service h3 start  */
+section.services-grid .service h3{
+    font-weight: 600;
+    font-size: 15px;
+}
+/* service h3 end */
+/* service p start  */
+section.services-grid .service p{
+    font-weight: 600;
+    color: var(--secondary-bg-color);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+/* service p end */
+/* service img start  */
+section.services-grid .service img{
+    width: 60px;
+    align-self: flex-end;
+}
+/* service img end */
